@@ -100,6 +100,168 @@ CSS normalization
   }
 
 /*
+  Back Button
+*/
+.back_button a {
+  background-color: #779be7;
+  color: #eaeaea;
+  text-decoration: none;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  width: 10rem;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 35px;
+  transition: ease all 0.3s;
+  margin: 5%;
+}
+
+.back_button a :hover{
+  background-color: #4f9799;
+  color: #fff;
+  padding: 1.5rem;
+}
+
+/*
+Multiple Choice
+*/
+
+/*
+Shape for Mutliple choice question
+*/
+.quarter_circle {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  background-color: lightseagreen;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vertical_line{
+  border-left: solid black;
+  height: 12rem;
+  margin-left: 6rem;
+}
+
+.horizontal_line{
+  height: 3px;
+  width: 12rem;
+  color: black;
+  background-color: black;
+  border-width: 0px;
+  transform: translateY(-6rem);
+}
+
+/*
+Answer Buttons
+*/
+.multi_buttons0{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 15vh;
+  width: 85vh;
+  margin: 5% auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  border-radius: 5%;
+  background-color: white;
+}
+
+.multi_buttons0 a{
+  background-color: #779be7;
+  color: #eaeaea;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 1.5rem;
+  width: 10rem;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 35px;
+  transition: ease all 0.3s;
+  margin: 5%;
+}
+
+.multi_buttons0 a:hover{
+  background-color: #4f9799;
+  color: #fff;
+  padding: 2rem;
+}
+
+.multi_buttons1{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 15vh;
+  width: 85vh;
+  width: 25;
+  margin: 5% auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  border-radius: 5%;
+  background-color: white;
+}
+
+.multi_buttons1 a{
+  background-color: #779be7;
+  color: #eaeaea;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 1.5rem;
+  width: 10rem;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 35px;
+  transition: ease all 0.3s;
+  margin: 5%;
+}
+
+.multi_buttons1 a:hover{
+  background-color: #4f9799;
+  color: #fff;
+  padding: 2rem;
+}
+
+/*
+Question Box and Text
+*/
+.multi_question {
+  flex-grow: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 5% auto;
+  margin-top: 2.5%;
+  padding: 2rem;
+  width: 750px;
+  height: 50px;
+  border-radius: 10%;
+  background-color: #a7b2c8;
+}
+
+.multi_question p {
+  text-align: center;
+  font-size: 2rem;
+  color: #454545;
+
+}
+/*
+End of Mutliple Choice Section
+*/
+
+
+/*
 ****Vocabulary Style****
 */
 /* 
