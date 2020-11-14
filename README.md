@@ -1,1 +1,2 @@
-# MathT.github.io
+# The website is:
+mathteachingtool.github.io
