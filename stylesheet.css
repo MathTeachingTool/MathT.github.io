@@ -98,3 +98,109 @@ CSS normalization
     color: #fff;
     padding: 2.5rem;
   }
+
+/*
+****Vocabulary Style****
+*/
+/* 
+.vocab_question is for the white box that has the question and the 4 answers
+on it
+ */
+.vocab_question {
+  flex-grow: 3;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30vh;
+  margin: 5% auto;
+  max-width: 75%;
+  min-width: 30%;
+  border-radius: 5%;
+  background-color: #fff;
+}
+/*
+.vocab_box is for the question box at the bottom of the each scene.  
+ */
+.vocab_box {
+  flex-grow: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 750px;
+  height: 100px;
+  margin: 5% auto;
+  max-width: 75%;
+  min-width: 30%;
+  border-radius: 5%;
+  background-color: #a7b2c8;
+}
+
+/*
+The direction sentence "Click on the correct word to finish the sentence."
+*/
+.vocab_box p {
+  color: #454545;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.vocab_question p {
+  color: #454545;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 2rem;
+}
+/* 
+The following are for the buttons that are to be clicked to go to the 
+next scene. 
+These are the same CSS for all 3 scenes. 
+ */
+.vocab_question a {
+  background-color: #779be7;
+  color: #eaeaea;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: .25rem;
+  width: 10rem;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 35px;
+  transition: ease all 0.3s;
+}
+.vocab_question a:hover {
+  background-color: #4f9799;
+  color: #fff;
+  padding: 1rem;
+}
+/* 
+The following is for the final scene to let the user know they completed
+all of the questions and got them currect. 
+ */
+.vocab_final {
+  flex-grow: 3;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30vh;
+  margin: 5% auto;
+  max-width: 75%;
+  min-width: 30%;
+  border-radius: 5%;
+  background-color: #c43b3b;
+}
+.vocab_final a {
+  color: #3bc4c4;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 2rem;
+}
+.vocab_final p {
+  color: #3bc4c4;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 2rem;
+}
