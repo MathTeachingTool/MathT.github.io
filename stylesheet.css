@@ -4,104 +4,105 @@ CSS normalization
 
 */
 @font-face {
-    font-family: "Zilla Slab";
-    font-weight: 400;
-    src: url("src/fonts/zillaslab-regular-webfont.woff2") format("woff2"), url("src/fonts/zillaslab-regular-webfont.woff") format("woff");
-  }
-  @font-face {
-    font-family: "Zilla Slab";
-    font-weight: 700;
-    src: url("src/fonts/zillaslab-bold-webfont.woff2") format("woff2"), url("src/fonts/zillaslab-bold-webfont.woff") format("woff");
-  }
-  @font-face {
-    font-family: "Zilla Slab";
-    font-weight: 400;
-    font-style: italic;
-    src: url("src/fonts/zillaslab-italic-webfont.woff2") format("woff2"), url("src/fonts/zillaslab-italic-webfont.woff") format("woff");
-  }
-  @font-face {
-    font-family: "Zilla Slab";
-    font-weight: 700;
-    font-style: italic;
-    src: url("src/fonts/zillaslab-bolditalic-webfont.woff2") format("woff2"), url("src/fonts/zillaslab-bolditalic-webfont.woff") format("woff");
-  }
-  html, body {
-    margin: 0;
-    height: 100%;
-    font-size: 100%;
-    font-family: "Zilla Slab", arial, sans-serif;
-  }
-  
-  div {
-    margin: 0;
-    padding: 0;
-  }
-  
-  h1 {
-    margin: 0;
-  }
-  
-  .backdrop {
-    background-color: #fff;
-    margin: 0;
-    min-height: 100%;
-    top: 0;
-    bottom: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  
-  .backdrop h1 {
-    flex-grow: 1;
-    text-align: center;
-    padding: 2rem 0 0 0;
-    color: #454545;
-    font-size: 3rem;
-  }
-  
-  /* 
-  Center Box
-  */
-  .landing {
-    flex-grow: 3;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 60vh;
-    margin: 5% auto;
-    max-width: 75%;
-    min-width: 30%;
-    border-radius: 5%;
-    background-color: #a7b2c8;
-  }
-  
-  /*
-  Menu Buttons
-  */
-  .landing a {
-    background-color: #779be7;
-    color: #eaeaea;
-    text-decoration: none;
-    font-size: 1rem;
-    padding: 2rem;
-    width: 10rem;
-    text-align: center;
-    font-weight: bold;
-    border-radius: 35px;
-    transition: ease all 0.3s;
-  }
-  
-  .landing a:hover {
-    background-color: #4f9799;
-    color: #fff;
-    padding: 2.5rem;
-  }
+  font-family: "Zilla Slab";
+  font-weight: 400;
+  src: url("src/fonts/zillaslab-regular-webfont.woff2") format("woff2"), url("src/fonts/zillaslab-regular-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "Zilla Slab";
+  font-weight: 700;
+  src: url("src/fonts/zillaslab-bold-webfont.woff2") format("woff2"), url("src/fonts/zillaslab-bold-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "Zilla Slab";
+  font-weight: 400;
+  font-style: italic;
+  src: url("src/fonts/zillaslab-italic-webfont.woff2") format("woff2"), url("src/fonts/zillaslab-italic-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "Zilla Slab";
+  font-weight: 700;
+  font-style: italic;
+  src: url("src/fonts/zillaslab-bolditalic-webfont.woff2") format("woff2"), url("src/fonts/zillaslab-bolditalic-webfont.woff") format("woff");
+}
+html, body {
+  margin: 0;
+  height: 100%;
+  font-size: 100%;
+  font-family: "Zilla Slab", arial, sans-serif;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.backdrop {
+  background-color: #fff;
+  margin: 0;
+  min-height: 100%;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.backdrop h1 {
+  flex-grow: 1;
+  text-align: center;
+  padding: 2rem 0 0 0;
+  color: #454545;
+  font-size: 3rem;
+}
+
+/* 
+Center Box
+*/
+.landing {
+  flex-grow: 3;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 60vh;
+  margin: 5% auto;
+  max-width: 75%;
+  min-width: 30%;
+  border-radius: 5%;
+  background-color: #a7b2c8;
+}
+
+/*
+Menu Buttons
+*/
+.landing a {
+  background-color: #779be7;
+  color: #eaeaea;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 2rem;
+  width: 10rem;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 35px;
+  transition: ease all 0.3s;
+}
+
+.landing a:hover {
+  background-color: #4f9799;
+  color: #fff;
+  padding: 2.5rem;
+}
 
 /*
   Back Button
 */
+
 .back_button a {
   background-color: #779be7;
   color: #eaeaea;
@@ -119,10 +120,13 @@ CSS normalization
   margin: 5%;
 }
 
-.back_button a :hover{
+.back_button a:hover{
   background-color: #4f9799;
   color: #fff;
-  padding: 1.5rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 2.75rem;
+  padding-right: 2.75rem;
 }
 
 /*
