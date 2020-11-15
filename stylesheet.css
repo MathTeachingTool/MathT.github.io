@@ -186,13 +186,48 @@ End of error message
 */
 
 /*
+Ending Message
+*/
+.ending {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 60vh;
+  width: 60vh;
+  margin: 5% auto;
+  border-radius: 5%;
+  background-color: #a7b2c8;
+}
+
+.ending a {
+  background-color: #779be7;
+  color: #eaeaea;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 2rem;
+  width: 10rem;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 35px;
+  transition: ease all 0.3s;
+}
+
+.ending a:hover {
+  background-color: #4f9799;
+  color: #fff;
+  padding: 2.5rem;
+}
+
+/*
 Multiple Choice
 */
 
 /*
 Shape for Mutliple choice question
 */
-.quarter_circle {
+.circle {
   width: 12rem;
   height: 12rem;
   border-radius: 50%;
@@ -205,13 +240,13 @@ Shape for Mutliple choice question
   margin-right: auto;
 }
 
-.vertical_line{
+.vertical_line {
   border-left: solid black;
   height: 12rem;
   margin-left: 6rem;
 }
 
-.horizontal_line{
+.horizontal_line {
   height: 3px;
   width: 12rem;
   color: black;

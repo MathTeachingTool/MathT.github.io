@@ -8,19 +8,23 @@
 </head>
 <body>
    <div class = "backdrop">
+
       <h1>Multiple Choice</h1>
       <div class = "back_button">
-         <a href="fractions.html">Back</a> 
+         <a href="fractions_multiplechoice1.html">Back</a> 
       </div>
-      <div class = "circle">
-         <div class = "vertical_line"></div>
-         <div class = "horizontal_line"></div>
-      </div>
-      
+
+      <div class = "circle"></div>
+
       <div class="multi_buttons0">
-         <a href="fractions_multiplechoice1.html">
-            Fourths
-         </a>
+         <button class = "wrong answer" id = "myBtn">Fourths</button>
+         <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p>This is not correct. Please try again.</p>
+            </div>
+          </div>
 
          <button class = "wrong answer" id = "myBtn">Halves</button>
          <div id="myModal" class="modal">
@@ -33,14 +37,9 @@
       </div>
 
       <div class="multi_buttons1">
-         <button class = "wrong answer" id = "myBtn">Whole</button>
-         <div id="myModal" class="modal">
-            <!-- Modal content -->
-            <div class="modal-content">
-              <span class="close">&times;</span>
-              <p>This is not correct. Please try again.</p>
-            </div>
-          </div>
+         <a href="fractions_multiplechoice3.html">
+            Whole
+         </a>
 
          <button class = "wrong answer" id = "myBtn">Thirds</button>
          <div id="myModal" class="modal">
