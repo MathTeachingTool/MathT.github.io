@@ -426,23 +426,154 @@ The following are for the buttons that are to be clicked to go to the
 next scene. 
 These are the same CSS for all 3 scenes. 
  */
-.vocab_question a {
+/*
+Answer Buttons
+*/
+.vocab_buttons0{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 15vh;
+  width: 85vh;
+  margin: 5% auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  border-radius: 5%;
+  background-color: white;
+}
+
+.vocab_buttons0 a{
   background-color: #779be7;
   color: #eaeaea;
   text-decoration: none;
   font-size: 1rem;
-  padding: .25rem;
+  padding: 1.5rem;
   width: 10rem;
   text-align: center;
   font-weight: bold;
   border-radius: 35px;
   transition: ease all 0.3s;
+  margin: 5%;
 }
-.vocab_question a:hover {
+
+.vocab_buttons0 button{
+  background-color: #779be7;
+  color: #eaeaea;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 1.5rem;
+  width: 10rem;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 35px;
+  transition: ease all 0.3s;
+  margin: 5%;
+  outline: none;
+  border: none;
+}
+
+.vocab_buttons0 a:hover{
   background-color: #4f9799;
   color: #fff;
-  padding: 1rem;
+  padding: 2rem;
 }
+
+.vocab_buttons0 button:hover{
+  background-color: #4f9799;
+  color: #fff;
+  padding: 2rem;
+  cursor: pointer;
+}
+
+.vocab_buttons1{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 15vh;
+  width: 85vh;
+  width: 25;
+  margin: 5% auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  border-radius: 5%;
+  background-color: white;
+}
+
+.vocab_buttons1 a{
+  background-color: #779be7;
+  color: #eaeaea;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 1.5rem;
+  width: 10rem;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 35px;
+  transition: ease all 0.3s;
+  margin: 5%;
+}
+
+.vocab_buttons1 button{
+  background-color: #779be7;
+  color: #eaeaea;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 1.5rem;
+  width: 10rem;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 35px;
+  transition: ease all 0.3s;
+  margin: 5%;
+  outline: none;
+  border: none;
+}
+
+.vocab_buttons1 a:hover{
+  background-color: #4f9799;
+  color: #fff;
+  padding: 2rem;
+}
+
+.vocab_buttons1 button:hover{
+  background-color: #4f9799;
+  color: #fff;
+  padding: 2rem;
+  cursor: pointer;
+}
+
+/* 
+The following is for the final scene to let the user know they completed
+all of the questions and got them currect. 
+ */
+.vocab_final {
+  flex-grow: 3;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30vh;
+  margin: 5% auto;
+  max-width: 75%;
+  min-width: 30%;
+  border-radius: 5%;
+  background-color: #a7b2c8;
+}
+.vocab_final a {
+  color: #454545;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 2rem;
+}
+.vocab_final p {
+  color: #454545;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
 /* 
 The following is for the final scene to let the user know they completed
 all of the questions and got them currect. 
@@ -472,3 +603,7 @@ all of the questions and got them currect.
   font-size: 2rem;
   padding: 2rem;
 }
+
+/*
+End of Vocabulary section 
+ */
