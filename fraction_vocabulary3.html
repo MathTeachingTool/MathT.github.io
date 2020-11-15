@@ -8,31 +8,53 @@
 </head>
 <body>
     <div class="backdrop">
-        <h1>Vocabulary</h1>
-        <div class="back_button">
-           <a href="fraction_vocabulary2.html">
-              Back
-           </a>
-        </div>
-        <div class="vocab_question">
-            <p>1 equal part is called ___________?</p>
-            <a href="fraction_vocabulary_wrong3.html">
-                Thirds
-            </a>
-            <a href="fraction_vocabulary_wrong3.html">
-                Fourths
-            </a>
-            <a href="fraction_vocabulary_final.html">
+       <h1>Vocabulary</h1>
+       <div class="back_button">
+         <a href="fraction_vocabulary2.html">
+            Back
+         </a>
+      </div>
+       <div class="vocab_question">
+          <p>1 equal part is called ___________?</p>
+          <div class="vocab_buttons0">
+             <a href="fraction_vocabulary_final.html">
                 Whole
-            </a>
-            <a href="fraction_vocabulary_wrong3.html">
-                Halves
-            </a>
-        </div>
-        <div class="vocab_box">
-           <p>Click on the correct word to finish the sentence.</p>
-        </div>
-     </div>
-     <script src="index.js"></script>
-</body>
+             </a>
+             <button class = "wrong answer" id = "myBtn">Halves</button>
+             <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>This is not correct. Please try again.</p>
+                </div>
+             </div>
+          </div>
+ 
+          <div class="vocab_buttons1">
+             <button class = "wrong answer" id = "myBtn">Thirds</button>
+             <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                   <span class="close">&times;</span>
+                   <p>This is not correct. Please try again.</p>
+                </div>
+             </div>
+             
+             
+             <button class = "wrong answer" id = "myBtn">Halves</button>
+             <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                   <span class="close">&times;</span>
+                   <p>This is not correct. <br> Please try again.</p>
+                </div>
+             </div>
+          </div> 
+       </div>
+       <div class="vocab_box">
+          <p>Click on the correct word to finish the sentence.</p>
+       </div>
+    </div>
+    <script src="index.js"></script>
+ </body>
 </html>
