@@ -3,9 +3,34 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Matching</title>
+   <title>Multiple Choice</title>
+   <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
+   <script src = "index.js"></script>
 </head>
 <body>
-   
+   <div class = "backdrop"> 
+      <h1>Matching</h1>
+      <div class="whole_basket" id="whole" ondrop= "drop(event)" ondragover="allowDrop(event)">Whole</div>
+      
+      <div class="container">
+         <div class = "start">
+            <img class="whole" id="drag0"  src="Whole.png" draggable="true" ondragstart="drag(event)" width="50" height="50"> 
+            <img class="whole" id="drag1"  src="Whole.png" draggable="true" ondragstart="drag(event)" width="50" height="50"> 
+            <img class="half" id="drag2"  src="Half.jpg" draggable="true" ondragstart="drag(event)" width="50" height="50"> 
+            <img class="half" id="drag3"  src="Half.jpg" draggable="true" ondragstart="drag(event)" width="50" height="50"> 
+            <img class="fourths" id="drag4"  src="Fourth.jpg" draggable="true" ondragstart="drag(event)" width="50" height="50"> 
+            <img class="fourths" id="drag5"  src="Fourth.jpg" draggable="true" ondragstart="drag(event)" width="50" height="50"> 
+         </div> 
+      </div>
+      <div class="container">
+         <div class="half_basket" id="half" ondrop= "drop(event)" ondragover="allowDrop(event)">Half</div>
+         
+         <div class="fourth_basket" id="fourth" ondrop= "drop(event)" ondragover="allowDrop(event)">Fourth</div>
+      </div>
+
+      <div class="check_button">
+         <button class="check_button" onclick="check_function()">Check</button>
+      </div>
+   <div/>
 </body>
 </html>

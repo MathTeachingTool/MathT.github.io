@@ -57,7 +57,7 @@ button{
 }
 
 .backdrop h1 {
-  flex-grow: 1;
+  /* flex-grow: 1; */
   text-align: center;
   padding: 2rem 0 0 0;
   color: #454545;
@@ -184,41 +184,6 @@ Pop up error
 /*
 End of error message
 */
-
-/*
-Ending Message
-*/
-.ending {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 60vh;
-  width: 60vh;
-  margin: 5% auto;
-  border-radius: 5%;
-  background-color: #a7b2c8;
-}
-
-.ending a {
-  background-color: #779be7;
-  color: #eaeaea;
-  text-decoration: none;
-  font-size: 1rem;
-  padding: 2rem;
-  width: 10rem;
-  text-align: center;
-  font-weight: bold;
-  border-radius: 35px;
-  transition: ease all 0.3s;
-}
-
-.ending a:hover {
-  background-color: #4f9799;
-  color: #fff;
-  padding: 2.5rem;
-}
 
 /*
 Multiple Choice
@@ -641,4 +606,85 @@ all of the questions and got them currect.
 
 /*
 End of Vocabulary section 
- */
+*/
+
+/*
+Multiple Choice
+*/
+#whole {
+  width: 350px;
+  height: 70px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+  z-index: 1;
+}
+#half {
+  width: 350px;
+  height: 70px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}
+#fourth {
+  width: 350px;
+  height: 70px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.whole_basket{
+  text-align: center;
+  align-self: center;
+  flex-direction: column;
+  height: 45vh;
+  width: 15vh;
+  border-radius: 5%;
+  background-color: #a7b2c8;
+}
+
+.half_basket{
+  text-align: center;
+  align-self: flex-start;
+  height: 45vh;
+  width: 15vh;
+  border-radius: 5%;
+  background-color: #a7b2c8;
+}
+
+.fourth_basket{
+  text-align: center;
+  height: 45vh;
+  width: 15vh;
+  margin-left: 15%;
+  border-radius: 5%;
+  background-color: #a7b2c8;
+}
+
+.check_button button{
+  background-color: #779be7;
+  color: #eaeaea;
+  text-decoration: none;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  width: 10rem;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 35px;
+  transition: ease all 0.3s;
+  margin-left: 42%;
+}
+
+.check_button button:hover{
+  background-color: #4f9799;
+  color: #fff;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 2.75rem;
+  padding-right: 2.75rem;
+}
